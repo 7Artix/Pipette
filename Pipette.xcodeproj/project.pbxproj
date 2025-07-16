@@ -6,14 +6,24 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1BB2FA572E27F2FD0057A8A0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 1BB2FA562E27F2F30057A8A0 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		1BB2FA3F2E27F27B0057A8A0 /* Pipette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pipette.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BB2FA562E27F2F30057A8A0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		1BB2FA412E27F27B0057A8A0 /* Pipette */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Pipette;
+			sourceTree = "<group>";
+		};
+		1BB2FA522E27F2B90057A8A0 /* Documentation */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Documentation;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +42,8 @@
 		1BB2FA362E27F27B0057A8A0 = {
 			isa = PBXGroup;
 			children = (
+				1BB2FA562E27F2F30057A8A0 /* .gitignore */,
+				1BB2FA522E27F2B90057A8A0 /* Documentation */,
 				1BB2FA412E27F27B0057A8A0 /* Pipette */,
 				1BB2FA402E27F27B0057A8A0 /* Products */,
 			);
@@ -62,6 +74,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				1BB2FA412E27F27B0057A8A0 /* Pipette */,
+				1BB2FA522E27F2B90057A8A0 /* Documentation */,
 			);
 			name = Pipette;
 			packageProductDependencies = (
@@ -109,6 +122,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BB2FA572E27F2FD0057A8A0 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

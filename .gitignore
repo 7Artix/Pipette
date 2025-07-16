@@ -1,0 +1,49 @@
+
+# Xcode
+.DS_Store
+
+# Build Products
+build/
+*.build/
+DerivedData/
+
+# Generated files
+*.pbxuser
+*.mode1v3
+*.xcuserstate
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+*.xctestplan
+!*.xcscheme
+
+# Swift Package Manager (SPM)
+.swiftpm/
+
+# Carthage
+Carthage/Build/
+
+# CocoaPods
+Pods/
+*.xcworkspace
+*.xcfilelist
+*.swift-version
+
+# General
+.idea/
+.vscode/
+.swift-format
+
+# User-specific
+*.xcuserdatad/
+xcuserdata/
+
+# Crashlytics
+com.crashlytics.mac.sdk
+
+# Misc
+.localized
+
+# Optional: Sensitive Info
+*.privateKey
+*.api_key
